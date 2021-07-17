@@ -1,0 +1,30 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"storageAccountName": {
+			"value": "dvftpstorage"
+		},
+		"adminUsername": {
+			"value": "dvroot"
+		},
+		"adminPassword": {
+			"value": "S3curePass!"
+		},
+		"dnsNameforLBIP": {
+			"value": "dvftpdns"
+		},
+		"lbName": {
+			"value": "dvftplb"
+		},
+		"nicNamePrefix": {
+			"value": "dvftpnic"
+		},
+		"publicIPAddressName": {
+			"value": "dvftppip"
+		},
+		"vnetName": {
+			"value": "dvftpvnet"
+		}
+	}
+}
